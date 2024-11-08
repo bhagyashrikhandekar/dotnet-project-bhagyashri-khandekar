@@ -1,0 +1,54 @@
+pipeline {
+		agent {
+				label {
+							label "UAT"
+							customWorkspace "/mnt/"
+				
+				}
+		}
+		
+		environment {
+						
+						url = "https://github.com/bhagyashrikhandekar/dotnet-project-bhagyashri-khandekar.git"
+		
+		}
+		
+		stages {
+		
+				stage ("ClONE_PROJECT"){
+								
+							steps {
+										sh "sudo rm -rf *"
+										sh "sudo git clone $url"
+							
+							}
+				
+				}
+				
+				stage ("BUILD_DOCKERFILE") {
+							
+								steps {
+											sh "sudo cd /mnt/dotnet/hello-world-api"
+											sh "sudo docker build -t my-dotnet-app:latest ."
+											sh "sudo docker run -d -p 5000:5000 my-dotnet-app:latest"
+								
+								}
+				
+				}
+				
+				stage ("PUSH") {
+							
+							steps {
+										sh "sudo docker tag my-dotnet-app:latest bhagyashridocker74/my-dotnet-app:latest"
+										sh "sudo docker push bhagyashridocker74/my-dotnet-app:latest"
+							
+							}
+				
+				
+				}
+		
+		
+		
+		}
+
+}
