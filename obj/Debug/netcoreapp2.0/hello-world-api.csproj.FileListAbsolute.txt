@@ -1,0 +1,11 @@
+/mnt/dotnet-hello-world/hello-world-api/bin/Debug/netcoreapp2.0/hello-world-api.deps.json
+/mnt/dotnet-hello-world/hello-world-api/bin/Debug/netcoreapp2.0/hello-world-api.runtimeconfig.json
+/mnt/dotnet-hello-world/hello-world-api/bin/Debug/netcoreapp2.0/hello-world-api.runtimeconfig.dev.json
+/mnt/dotnet-hello-world/hello-world-api/bin/Debug/netcoreapp2.0/hello-world-api.dll
+/mnt/dotnet-hello-world/hello-world-api/bin/Debug/netcoreapp2.0/hello-world-api.pdb
+/mnt/dotnet-hello-world/hello-world-api/obj/Debug/netcoreapp2.0/hello-world-api.csprojAssemblyReference.cache
+/mnt/dotnet-hello-world/hello-world-api/obj/Debug/netcoreapp2.0/hello-world-api.csproj.CoreCompileInputs.cache
+/mnt/dotnet-hello-world/hello-world-api/obj/Debug/netcoreapp2.0/hello-world-api.AssemblyInfoInputs.cache
+/mnt/dotnet-hello-world/hello-world-api/obj/Debug/netcoreapp2.0/hello-world-api.AssemblyInfo.cs
+/mnt/dotnet-hello-world/hello-world-api/obj/Debug/netcoreapp2.0/hello-world-api.dll
+/mnt/dotnet-hello-world/hello-world-api/obj/Debug/netcoreapp2.0/hello-world-api.pdb
